@@ -89,9 +89,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.fa-seedling { 
-  color: var(--bs-success);
-}
+
 
 .fa-custom-1 {
   color: var(--bs-success) !important
@@ -610,6 +608,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
 
 .img-thumbnail {
