@@ -15,6 +15,19 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="./css/styles.css" rel="stylesheet" />
+
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup {
+                background: #fff;
+                clear: left;
+                font: 14px Helvetica, Arial, sans-serif;
+                width: 340px;
+            }
+        
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -55,7 +68,7 @@
                 our communities and the world.</p>
                 <p class="font-weight-light mt-5 ">
                     Thank you for your interest in Who Wants Rubbish! We're excited to announce that we're planning to launch in late 2023. If
-                    you'd like to stay up-to-date on our progress and receive updates as we get closer to launch, sign up for our email list
+                    you'd like to stay up-to-date on our progress and receive updates as we get closer to launch, <a href="#contact" class="text-warning py-3 px-0 px-lg-3 rounded">subscribe</a> to our email list
                     below. We can't wait to show you what we have in store!
                 </p>
             </div>
@@ -195,68 +208,71 @@
                 </div>
             </div>
         </section>
+
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Mail List Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Subscribe to our newsletter</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-custom-1 fa-seedling"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                <div class=" d-flex justify-content-center w-75 mx-auto flex-column">
+                    <h4 class="text-center mb-3">Thank you for taking the time to learn more about our app!</h4>
+                    <p class="lead text-center">
+                        We believe that by connecting businesses with excess
+                        inventory to charities and organizations in need, we can make a positive impact on our communities and the
+                        environment.
+                        If you share our vision and would like to stay up-to-date on our progress as we approach launch, please sign up
+                        for our
+                        email list below. We'll keep you in the loop with regular updates and exclusive sneak peeks. Thank you for your
+                        support!
+                    </p>
+                </div>
                 <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                <!-- Form goes here -->
+                <!-- Begin Mailchimp Signup Form -->
+                
+                <div id="mc_embed_signup mx-auto">
+                    <form
+                        action="https://whowantsrubbish.us21.list-manage.com/subscribe/post?u=37838b68485bc1ea64fa3dc07&amp;id=4d7a1ba3f5&amp;f_id=00e48ae1f0"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                        novalidate>
+                        <div id="mc_embed_signup_scroll flex flex-col justify-content-center">
+                            <h2>Subscribe!</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                             </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
                             </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_37838b68485bc1ea64fa3dc07_4d7a1ba3f5" tabindex="-1" value=""></div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+                                    <p class="brandingLogo d-none"><a href="http://eepurl.com/iml-tA"
+                                            title="Mailchimp - email marketing made easy and fun"><img
+                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+                                    </p>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                <script
+                    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
             </div>
         </section>
         <!-- Footer-->
@@ -267,34 +283,25 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            United Kingdom
                             <br />
-                            Clark, MO 65243
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="text-uppercase mb-4">Follow us on social media!</h4>
+                        <!-- Twitter Link -->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/WhoWantsRubbish" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://instagram.com/whowantsrubbish" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
                     </div>
                     <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
+                    <!-- Footer text here -->
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
