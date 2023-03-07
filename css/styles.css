@@ -89,10 +89,14 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-
+/* Custom Styles here! */
 
 .fa-custom-1 {
   color: var(--bs-success) !important
+}
+
+.png-custom-1 {
+  width: 8rem;
 }
 
 hr {
