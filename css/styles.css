@@ -92,7 +92,7 @@ body {
 /* Custom Styles here! */
 
 .fa-custom-1 {
-  color: var(--bs-success) !important
+  color: var(--bs-primary) !important
 }
 
 .png-custom-1 {

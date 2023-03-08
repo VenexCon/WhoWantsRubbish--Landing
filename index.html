@@ -16,6 +16,17 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="./css/styles.css" rel="stylesheet" />
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0MZWLVN4F"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-N0MZWLVN4F');
+        </script>
+
+
         <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
         <style type="text/css">
             #mc_embed_signup {
@@ -235,13 +246,13 @@
                 <!-- Contact Section Form-->
                 <!-- Form goes here -->
                 <!-- Begin Mailchimp Signup Form -->
-                
+                <div class="container d-flex justify-content-center mt-4 border-primary">
                 <div id="mc_embed_signup mx-auto">
                     <form
                         action="https://whowantsrubbish.us21.list-manage.com/subscribe/post?u=37838b68485bc1ea64fa3dc07&amp;id=4d7a1ba3f5&amp;f_id=00e48ae1f0"
                         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
                         novalidate>
-                        <div id="mc_embed_signup_scroll flex flex-col justify-content-center">
+                        <div id="mc_embed_signup_scroll d-flex flex-col justify-content-center">
                             <h2>Subscribe!</h2>
                             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                             <div class="mc-field-group">
@@ -269,10 +280,12 @@
                         </div>
                     </form>
                 </div>
+                </div>
                 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
                 <script
                     type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
                 <!--End mc_embed_signup-->
+            
             </div>
         </section>
         <!-- Footer-->
@@ -301,7 +314,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+            <div class="container"><small>Copyright &copy; WhoWantsRubbish 2023</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -314,17 +327,23 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Purpose</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">Purpose</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-trash"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-1.jpg" alt="A landfill in india" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">
+                                        Our website was founded with a simple yet powerful goal in mind: to reduce waste consumption and promote sustainability.
+                                        The idea came to us after visiting a local tip and realizing just how much waste could be repurposed or repaired. With
+                                        this website, we aim to connect businesses and charities, and encourage individuals to take action towards a more
+                                        sustainable future
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -346,17 +365,20 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Environment</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">Environment</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-custom-1 fa-handshake"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-2.jpg" alt="Aid being delivered" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">The impact of pollution and landfill on our environment is staggering. Every year, landfills across the globe are filled
+                                    with millions of tons of waste that could be repurposed or recycled. Our website aims to help reduce this waste by
+                                    connecting businesses and charities, and encouraging individuals to donate excess or unwanted inventory</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -378,17 +400,20 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Charities</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">Charities</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-arrows-spin"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-3.jpg" alt="Alot of hands together with a painted heart." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Charities and shelters often struggle to find the resources they need to carry out their important work. With our
+                                    website, charities can create listings for items they need, and businesses and individuals can donate excess or unwanted
+                                    inventory. This helps to reduce waste and ensure that valuable resources are put to good use</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -410,17 +435,20 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Start-ups</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">Start-ups</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-seedling"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio 4.jpg" alt="Happy people together" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Starting a new business can be tough, especially when it comes to sourcing materials and inventory. Our website provides
+                                    a platform for entrepreneurs to create listings for items they need to get their business off the ground. By connecting
+                                    with businesses and individuals who have excess inventory, start-ups can save money and reduce waste.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -442,17 +470,23 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Action</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">
+                                        Action
+                                    </h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-heart-pulse"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio 5 .jpg" alt="A man and child planting a seed. " />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Take action today to reduce waste and pollution! Our website is designed to help businesses and individuals find ways to
+                                    donate and repurpose items that might otherwise end up in landfills or contribute to pollution. By using our platform,
+                                    you can make a real difference in your community and help build a more sustainable future for all. Join us in taking
+                                    action and let's make a positive impact together</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -474,17 +508,22 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">People</h2>
                                     <!-- Icon Divider-->
+                                    <h2 class="text-primary ">People</h2>
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon fa-custom-1"><i class="fas fa-sun"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-6.jpg" alt="A family walking through a forest" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">At the heart of our platform are people like you. Without a community of businesses and individuals coming together to
+                                    donate, connect, and support one another, our platform would not exist. By joining our community, you can play an
+                                    important role in building a better world for everyone. Whether you're a business looking to make a positive impact, or
+                                    an individual looking to help those in need, your involvement is key to our success. Together, we can make a difference
+                                    and create a brighter future for all.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
