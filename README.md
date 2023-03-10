@@ -1,5 +1,5 @@
 # WhoWantsRubbish--Landing
-# User Search Website
+# Who Wants Rubbish
 
 A website built using React and Bootstrap this is a landing page for my upcoming project for the re-use of typical business and household waste products. This website will feature the ability to
 create listings where businesses can request donations of typical waste household and other business products. Users will create an account and be able to contact businesses to arrange donations.
