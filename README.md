@@ -23,7 +23,7 @@ The landing page is now available for email sign-ups and to browse the websites 
 
 ## Deployment
 
-Link! [Link to repo finder](https://whowantsrubbish.com)
+Link! [Link to landing page](https://whowantsrubbish.com)
 
 ## Future Plans
 
