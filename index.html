@@ -22,6 +22,13 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="./css/styles.css" rel="stylesheet" />
+       
+           
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+       
+
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0MZWLVN4F"></script>
@@ -32,6 +39,11 @@
 
             gtag('config', 'G-N0MZWLVN4F');
         </script>
+        <!-- Carosuel Script -->
+        <script>
+            $('.carousel').carousel()
+        </script>
+
 
 
         <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
@@ -50,7 +62,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase text-primary fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-primary" href="#page-top">Who Wants Rubbish</a>
+                <a class="navbar-brand text-primary" href="#page-top">
+                <img class="navSVG" src="assets/Logos/WWWSVGLogo.svg" alt="Who Wants Rubbish Logo">
+                </a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -67,11 +81,12 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/portfolio/MainBanner.png.png" alt="Who wants rubbish logo and slogan" />
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/portfolio/MainBanner.png.png" alt="Who wants rubbish logo and slogan" /> -->
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">
-                    Waste to Want
+                    Transform Your Trash into Treasure
                 </h1>
+                <h2 class="mt-5">Donate Unwanted Items with Who Wants Rubbish</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -79,16 +94,37 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Find a Home for Your Waste</p>
-                <p class="font-weight-light mt-5 ">Our web app connects businesses and charities to facilitate the donation of excess or unwanted inventory, reducing waste
+                <p class="font-weight-light mt-2 ">Our web app connects businesses and charities to facilitate the donation of excess or unwanted inventory, reducing waste
                 and benefiting the environment. As an early-stage, bootstrapped startup, we're dedicated to making a positive impact on
                 our communities and the world.</p>
-                <p class="font-weight-light mt-5 ">
+                <p class="font-weight-light mt-2 ">
                     Thank you for your interest in Who Wants Rubbish! We're excited to announce that we're planning to launch in late 2023. If
-                    you'd like to stay up-to-date on our progress and receive updates as we get closer to launch, <a href="#contact" class="text-warning py-3 px-0 px-lg-3 rounded">subscribe</a> to our email list
+                    you'd like to stay up-to-date on our progress and receive updates as we get closer to launch, <a href="#contact" class="text-warning rounded">subscribe</a> to our email list
                     below. We can't wait to show you what we have in store!
                 </p>
             </div>
+            <div class="container d-flex flex-column justify-content-center mt-5">
+                <h2 class="text-center">What can you do?</h2>
+                <div
+                    class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row gap-5 align-content-center justify-content-around mt-4">
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="text-center">Sign-up!</p>
+                        <img src="./assets//img/portfolio/web.png" class='png-custom-1 mx-auto' alt="world wide web">
+                    </div>
+            
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="text-center">Create or browse listings</p>
+                        <img src="./assets//img/portfolio/trade.png" class='png-custom-1 mx-auto' alt="Exchanging of goods">
+                    </div>
+            
+                    <div class="d-flex flex-column justify-content-center">
+                        <p class="text-center">Donate!
+                        </p>
+                        <img src="./assets/img/portfolio/personal.png" class='png-custom-1 mx-auto' alt="Personal meeting via web">
+                    </div>
+                </div>
+            </div>
+            </section>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
@@ -108,7 +144,10 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-trash fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-trash fa-3x mb-2"></i>
+                                    <h2 class="text-primary text-white ">Purpose</h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio-1.jpg" alt="waste in the ocean" />
                         </div>
@@ -117,7 +156,10 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-handshake fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-handshake fa-3x mb-2"></i>
+                                    <h2 class="text-primary text-white ">Environment </h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio-2.jpg" alt="Picture of food bank donations" />
                         </div>
@@ -126,7 +168,10 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-arrows-spin fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-arrows-spin fa-3x"></i>
+                                    <h2 class="text-primary text-white ">Charities</h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio-3.jpg" alt="Group of hands showing a heart" />
                         </div>
@@ -135,7 +180,10 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-seedling fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-seedling fa-3x mb-2"></i>
+                                    <h2 class="text-primary text-white ">Start-ups</h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio 4.jpg" alt="even small steps are still progress" />
                         </div>
@@ -144,7 +192,10 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-heart-pulse fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-heart-pulse fa-3x mb-2"></i>
+                                    <h2 class="text-primary text-white ">Action</h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio 5 .jpg" alt="Person jump over a body of water" />
                         </div>
@@ -153,7 +204,10 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-regular fa-sun fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-regular fa-sun fa-3x mb-2"></i>
+                                    <h2 class="text-primary text-white ">People</h2>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/portfolio-6.jpg" alt="line of hands on a tree trunk" />
                         </div>
@@ -176,10 +230,7 @@
                 <div class="row">
                     <div class=" text-center ms-auto"><p class="lead">
                         Welcome to Who Wants Rubbish, a community platform dedicated to promoting sustainability by connecting businesses with
-                        individuals who can donate their unwanted items. Our mission is to reduce waste by providing businesses with an easy way
-                        to connect with members of their local community who are willing to donate their unwanted items. By doing so, we hope to
-                        reduce the amount of waste that ends up in landfills and promote a more sustainable way of living, including upcycling
-                        and recycling
+                        individuals who can donate their unwanted items. 
                     </p></div>
                     <div class=" text-center ms-auto d-sm-none">
                         <p class="lead d-sm-none">
@@ -189,18 +240,9 @@
                     </div>
                     <div class="text-center me-auto"><p class="lead">
                     Our community is made up of businesses and individuals who are passionate about reducing waste and promoting
-                    sustainability. We strive to make the process of donating and receiving items as easy and convenient as possible. If
-                    you're a business looking to donate your unwanted items, simply register on our platform and list the items you would
-                    like to donate. Users can then browse the listings and contact you to arrange pick up. If you're an individual looking
-                    to donate items, simply browse the listings and contact the businesses that are requesting the items you have
+                    sustainability.
                     </p></div>
-                    <div class="text-center me-auto">
-                        <p class="lead">
-                            In addition, we also provide resources for upcycling and recycling centers in your local area. By connecting businesses
-                            and individuals with these centers, we can ensure that unwanted items are properly disposed of and repurposed in a
-                            sustainable way.
-                        </p>
-                    </div>
+                    
                     <div class="text-center me-auto">
                         <p class="lead">
                             Join our community of like-minded individuals and businesses who are committed to making a difference. Together, we can
@@ -209,34 +251,54 @@
                     </div>
                 </div>
             </div>
-            <!-- About Section Button-->
             </div>
-            <div class="container d-flex flex-column justify-content-center mt-5">
-                <h2 class="text-center">So what will I be able to do?</h2>
-                <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row gap-5 align-content-center justify-content-around mt-4">
-                    <div class="d-flex flex-column justify-content-center">
-                        <p class="text-center">Sign-up!</p>
-                        <img src="./assets//img/portfolio/web.png" class='png-custom-1 mx-auto' alt="world wide web">
+
+            <section class="page-section bg-primary text-white" id="about">
+                <div class=" text-center ms-auto">
+                    <h2 class="page-section-heading text-center text-uppercase text-white">Preview!</h2>
+                    <p class="lead">
+                        Check out a preview of the website below
+                    </p>
+                </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="carousel-Image rounded" src="assets/Carosuel Images/Carosuel Image 1.jpeg" alt="Image of a listing ">
                     </div>
             
-                    <div class="d-flex flex-column justify-content-center">
-                        <p class="text-center">Create or browse listings</p>
-                        <img src="./assets//img/portfolio/trade.png" class='png-custom-1 mx-auto' alt="Exchanging of goods">
+                    <div class="carousel-item">
+                        <img class="carousel-Image rounded"  src="assets/Carosuel Images/Carosuel Image 2.png" alt="Image showing creation of a listing">
                     </div>
             
-                    <div class="d-flex flex-column justify-content-center">
-                        <p class="text-center">Arrange the exchange!</p>
-                        <img src="./assets/img/portfolio/personal.png" class='png-custom-1 mx-auto' alt="Personal meeting via web">
+                    <div class="carousel-item">
+                        <img class="carousel-Image rounded" src="assets/Carosuel Images/Carosuel Images 3.png" alt="Image showing the profile page">
                     </div>
                 </div>
+            
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-        </section>
+            </section>
+
 
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Mail List Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Subscribe to our newsletter</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Follow Our Socials</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -244,59 +306,14 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class=" d-flex justify-content-center w-75 mx-auto flex-column">
-                    <h4 class="text-center mb-3">Thank you for taking the time to learn more about our app!</h4>
+                    <h4 class="text-center mb-3">Thank you for taking the time to learn more about us!</h4>
                     <p class="lead text-center">
                         We believe that by connecting businesses with excess
                         inventory to charities and organizations in need, we can make a positive impact on our communities and the
                         environment.
-                        If you share our vision and would like to stay up-to-date on our progress as we approach launch, please sign up
-                        for our
-                        email list below. We'll keep you in the loop with regular updates and exclusive sneak peeks. Thank you for your
-                        support!
+                        If you share our vision and would like to stay up-to-date on our progress as we approach launch, please follow us on Twitter and Instagram!
                     </p>
                 </div>
-                <!-- Contact Section Form-->
-                <!-- Form goes here -->
-                <!-- Begin Mailchimp Signup Form -->
-                <div class="container d-flex justify-content-center mt-4 border-primary">
-                <div id="mc_embed_signup mx-auto">
-                    <form
-                        action="https://whowantsrubbish.us21.list-manage.com/subscribe/post?u=37838b68485bc1ea64fa3dc07&amp;id=4d7a1ba3f5&amp;f_id=00e48ae1f0"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                        novalidate>
-                        <div id="mc_embed_signup_scroll d-flex flex-col justify-content-center">
-                            <h2>Subscribe!</h2>
-                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                            <div class="mc-field-group">
-                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-                                </label>
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-                            </div>
-                            <div id="mce-responses" class="clear foot">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                    name="b_37838b68485bc1ea64fa3dc07_4d7a1ba3f5" tabindex="-1" value=""></div>
-                            <div class="optionalParent">
-                                <div class="clear foot">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
-                                    <p class="brandingLogo d-none"><a href="http://eepurl.com/iml-tA"
-                                            title="Mailchimp - email marketing made easy and fun"><img
-                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                </div>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-                <script
-                    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-                <!--End mc_embed_signup-->
             
             </div>
         </section>
@@ -350,7 +367,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-1.jpg" alt="A landfill in india" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
+                                    <p class="mb-4 text-primary">
                                         Our website was founded with a simple yet powerful goal in mind: to reduce waste consumption and promote sustainability.
                                         The idea came to us after visiting a local tip and realizing just how much waste could be repurposed or repaired. With
                                         this website, we aim to connect businesses and charities, and encourage individuals to take action towards a more
@@ -388,7 +405,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-2.jpg" alt="Aid being delivered" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The impact of pollution and landfill on our environment is staggering. Every year, landfills across the globe are filled
+                                    <p class="mb-4 text-primary">The impact of pollution and landfill on our environment is staggering. Every year, landfills across the globe are filled
                                     with millions of tons of waste that could be repurposed or recycled. Our website aims to help reduce this waste by
                                     connecting businesses and charities, and encouraging individuals to donate excess or unwanted inventory</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -423,7 +440,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-3.jpg" alt="Alot of hands together with a painted heart." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Charities and shelters often struggle to find the resources they need to carry out their important work. With our
+                                    <p class="mb-4 text-primary">Charities and shelters often struggle to find the resources they need to carry out their important work. With our
                                     website, charities can create listings for items they need, and businesses and individuals can donate excess or unwanted
                                     inventory. This helps to reduce waste and ensure that valuable resources are put to good use</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -458,7 +475,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio 4.jpg" alt="Happy people together" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Starting a new business can be tough, especially when it comes to sourcing materials and inventory. Our website provides
+                                    <p class="mb-4 text-primary">Starting a new business can be tough, especially when it comes to sourcing materials and inventory. Our website provides
                                     a platform for entrepreneurs to create listings for items they need to get their business off the ground. By connecting
                                     with businesses and individuals who have excess inventory, start-ups can save money and reduce waste.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -495,7 +512,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio 5 .jpg" alt="A man and child planting a seed. " />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Take action today to reduce waste and pollution! Our website is designed to help businesses and individuals find ways to
+                                    <p class="mb-4 text-primary">Take action today to reduce waste and pollution! Our website is designed to help businesses and individuals find ways to
                                     donate and repurpose items that might otherwise end up in landfills or contribute to pollution. By using our platform,
                                     you can make a real difference in your community and help build a more sustainable future for all. Join us in taking
                                     action and let's make a positive impact together</p>
@@ -531,7 +548,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio-6.jpg" alt="A family walking through a forest" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">At the heart of our platform are people like you. Without a community of businesses and individuals coming together to
+                                    <p class="mb-4 text-primary">At the heart of our platform are people like you. Without a community of businesses and individuals coming together to
                                     donate, connect, and support one another, our platform would not exist. By joining our community, you can play an
                                     important role in building a better world for everyone. Whether you're a business looking to make a positive impact, or
                                     an individual looking to help those in need, your involvement is key to our success. Together, we can make a difference

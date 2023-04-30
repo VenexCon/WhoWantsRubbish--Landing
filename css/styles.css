@@ -95,6 +95,10 @@ body {
   color: var(--bs-primary) !important
 }
 
+.navSVG {
+  width: 15rem;
+}
+
 .png-custom-1 {
   width: 8rem;
 }
@@ -6000,6 +6004,9 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  margin:auto;
+  width:75%
+  
 }
 
 .carousel.pointer-event {
@@ -6026,6 +6033,9 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+}
+.carousel-Image {
+  width:inherit;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -6166,7 +6176,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
